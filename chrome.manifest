@@ -1,0 +1,2 @@
+content piclens chrome/content/
+overlay chrome://browser/content/browser.xul chrome://piclens/content/cooliris.xul

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>piclens@cooliris.com</em:id>
+        <em:name>Cooliris</em:name>
+        <em:version>1.9.1</em:version>
+        <em:description>Cooliris (formerly PicLens) transforms your browser into a full-screen 3D Wall for searching, viewing and sharing the Web.</em:description>
+        <em:creator>Cooliris Inc.</em:creator>
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>3.0</em:minVersion>
+                <em:maxVersion>3.1.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+<em:targetPlatform>WINNT_x86-msvc</em:targetPlatform>
+        <em:homepageURL>http://www.cooliris.com/</em:homepageURL>
+        <em:iconURL>chrome://piclens/content/cooliris-32.png</em:iconURL>
+        <em:updateURL>https://update.cooliris.com/firefox/xpi_update.rdf?os=%APP_OS%&amp;abi=%APP_ABI%&amp;ffv=%APP_VERSION%&amp;plv=%ITEM_VERSION%</em:updateURL>
+        <em:updateInfoURL>https://update.cooliris.com/firefox/xpi_update_info.rdf?os=%APP_OS%&amp;abi=%APP_ABI%&amp;ffv=%APP_VERSION%&amp;locale=%APP_LOCALE%&amp;plv=%ITEM_VERSION%</em:updateInfoURL>
+    </Description>
+</RDF>
+

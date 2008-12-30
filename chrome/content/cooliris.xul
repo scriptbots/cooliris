@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="cooliris.css" type="text/css" ?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton id="piclens-toolbarbutton2" class="cooliris-toolbarbutton-default" type="button"
+			tooltiptext="Launch Cooliris" label="Cooliris" style="list-style-image:url('chrome://piclens/content/toolbar.launch.active.png')" oncommand="launchCooliris()">
+		</toolbarbutton>
+	</toolbarpalette>
+	<script type="application/x-javascript" src="chrome://piclens/content/cooliris.js" />
+</overlay>

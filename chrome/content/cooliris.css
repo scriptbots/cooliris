@@ -1,0 +1,14 @@
+#piclens-toolbarbutton2 {
+    width: 36px;
+    height: 24px;
+}
+
+/* default state */
+.cooliris-toolbarbutton-default { list-style-image: url('chrome://piclens/content/toolbar.launch.normal.png') !important; }
+.cooliris-toolbarbutton-default:hover { list-style-image: url('chrome://piclens/content/toolbar.launch.normal.hover.png') !important; }
+.cooliris-toolbarbutton-default:active:hover { list-style-image: url('chrome://piclens/content/toolbar.launch.normal.click.png') !important; }
+
+/* launchable state */
+.cooliris-toolbarbutton-launchable { list-style-image: url('chrome://piclens/content/toolbar.launch.active.png') !important; }
+.cooliris-toolbarbutton-launchable:hover { list-style-image: url('chrome://piclens/content/toolbar.launch.active.hover.png') !important; }
+.cooliris-toolbarbutton-launchable:active:hover { list-style-image: url('chrome://piclens/content/toolbar.launch.active.click.png') !important; }
